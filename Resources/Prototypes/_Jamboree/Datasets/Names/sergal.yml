@@ -1,0 +1,17 @@
+- type: localizedDataset
+  id: NamesSergalMale
+  values:
+    prefix: names-sergal-male-dataset-
+    count: 60
+
+- type: localizedDataset
+  id: NamesSergalFemale
+  values:
+    prefix: names-sergal-female-dataset-
+    count: 60
+
+- type: localizedDataset
+  id: NamesSergalLast
+  values:
+    prefix: names-sergal-last-dataset-
+    count: 60

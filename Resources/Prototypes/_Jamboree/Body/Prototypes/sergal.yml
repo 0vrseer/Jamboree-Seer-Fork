@@ -1,0 +1,55 @@
+- type: body
+  name: species-name-sergal
+  id: Sergal
+  root: chest
+  slots:
+    head:
+      part: HeadSergal
+      connections:
+      - chest
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
+    chest:
+      part: ChestSergal
+      connections: # Goobstation - fix some species having their hands the wrong way around
+      - groin
+      - right arm
+      - left arm
+      - head # Shitmed Change
+      organs:
+        heart: OrganAnimalHeart
+        lungs: OrganHumanLungs
+    groin:
+      part: GroinSergal
+      connections:
+      - right leg
+      - left leg
+      organs:
+        stomach: OrganAnimalStomach
+        liver: OrganAnimalLiver
+        kidneys: OrganHumanKidneys
+    right arm:
+      part: RightArmSergal
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmSergal
+      connections:
+      - left hand
+    right hand:
+      part: RightHandSergal
+    left hand:
+      part: LeftHandSergal
+    right leg:
+      part: RightLegSergal
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegSergal
+      connections:
+      - left foot
+    right foot:
+      part: RightFootSergal
+    left foot:
+      part: LeftFootSergal

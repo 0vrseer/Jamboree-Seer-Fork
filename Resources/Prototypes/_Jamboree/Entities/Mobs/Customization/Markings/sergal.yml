@@ -1,0 +1,21 @@
+# Ears
+
+- type: marking
+  id: EarSergal
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ Sergal ]
+  sprites:
+    - sprite: _Jamboree/Mobs/Customization/Sergal/ears.rsi
+      state: ear
+
+# Tail
+
+- type: marking
+  id: TailSergal
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Sergal ]
+  sprites:
+    - sprite: _Jamboree/Mobs/Customization/Sergal/tail.rsi
+      state: tail

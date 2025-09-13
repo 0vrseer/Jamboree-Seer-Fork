@@ -1,0 +1,82 @@
+- type: entity
+  abstract: true
+  parent: BasePart
+  id: PartSergalBase
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+  - type: Icon
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+  - type: BodyPart
+    species: Sergal
+  - type: Damageable # Shitmed
+    damageModifierSet: Sergal
+
+- type: entity
+  parent: [ PartSergalBase, BaseChest ]
+  id: ChestSergal
+  name: "sergal chest"
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: "chest_m"
+  - type: Icon
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: "chest_m"
+
+- type: entity
+  parent: [ PartSergalBase, BaseGroin ]
+  id: GroinSergal
+  name: "sergal groin"
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: "groin_m"
+  - type: Icon
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: "groin_m"
+
+- type: entity
+  parent: [ PartSergalBase, BaseHead ]
+  id: HeadSergal
+  name: "sergal head"
+
+- type: entity
+  parent: [ PartSergalBase, BaseLeftArm ]
+  id: LeftArmSergal
+  name: "left sergal arm"
+
+- type: entity
+  parent: [ PartSergalBase, BaseRightArm ]
+  id: RightArmSergal
+  name: "right sergal arm"
+
+- type: entity
+  parent: [ PartSergalBase, BaseLeftHand ]
+  id: LeftHandSergal
+  name: "left sergal hand"
+
+- type: entity
+  parent: [ PartSergalBase, BaseRightHand ]
+  id: RightHandSergal
+  name: "right sergal hand"
+
+- type: entity
+  parent: [ PartSergalBase, BaseLeftLeg ]
+  id: LeftLegSergal
+  name: "left sergal leg"
+
+- type: entity
+  parent: [ PartSergalBase, BaseRightLeg ]
+  id: RightLegSergal
+  name: "right sergal leg"
+
+- type: entity
+  parent: [ PartSergalBase, BaseLeftFoot ]
+  id: LeftFootSergal
+  name: "left sergal foot"
+
+- type: entity
+  parent: [ PartSergalBase, BaseRightFoot ]
+  id: RightFootSergal
+  name: "right sergal foot"

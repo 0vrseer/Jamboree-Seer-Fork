@@ -1,0 +1,190 @@
+- type: species
+  id: Sergal
+  name: species-name-sergal
+  roundStart: true
+  prototype: MobSergal
+  sprites: MobSergalSprites
+  defaultSkinTone: "#985629"
+  markingLimits: MobSergalMarkingLimits
+  dollPrototype: MobSergalDummy
+  skinColoration: Hues
+  maleFirstNames: NamesSergalMale
+  femaleFirstNames: NamesSergalFemale
+  lastNames: NamesSergalLast
+
+- type: speciesBaseSprites
+  id: MobSergalSprites
+  sprites:
+    Head: MobSergalHead
+    Face: MobHumanoidAnyMarking
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+    Chest: MobSergalChest
+    Groin: MobSergalGroin
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
+    Eyes: MobHumanoidEyes
+    LArm: MobSergalLArm
+    RArm: MobSergalRArm
+    LHand: MobSergalLHand
+    RHand: MobSergalRHand
+    LLeg: MobSergalLLeg
+    RLeg: MobSergalRLeg
+    LFoot: MobSergalLFoot
+    RFoot: MobSergalRFoot
+
+- type: markingPoints
+  id: MobSergalMarkingLimits
+  points:
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    Tail:
+      points: 1
+      required: true
+      defaultMarkings: [ TailSergal ]
+    RightLeg:
+      points: 2
+      required: false
+    RightFoot:
+      points: 2
+      required: false
+    LeftLeg:
+      points: 2
+      required: false
+    LeftFoot:
+      points: 2
+      required: false
+    RightArm:
+      points: 2
+      required: false
+    RightHand:
+      points: 3
+      required: false
+    LeftArm:
+      points: 2
+      required: false
+    LeftHand:
+      points: 3
+      required: false
+    Snout:
+      points: 1
+      required: false
+    HeadTop:
+      points: 3
+      required: true
+      defaultMarkings: [ EarSergal ]
+    HeadSide:
+      points: 2
+      required: false
+    Overlay:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobSergalHead
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobSergalHeadMale
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobSergalHeadFemale
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobSergalChest
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: chest_m
+
+- type: humanoidBaseSprite
+  id: MobSergalChestMale
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: chest_m
+
+- type: humanoidBaseSprite
+  id: MobSergalChestFemale
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: chest_f
+
+- type: humanoidBaseSprite
+  id: MobSergalGroin
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: groin_m
+
+- type: humanoidBaseSprite
+  id: MobSergalGroinMale
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: groin_m
+
+- type: humanoidBaseSprite
+  id: MobSergalGroinFemale
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: groin_f
+
+- type: humanoidBaseSprite
+  id: MobSergalLLeg
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobSergalLHand
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobSergalLArm
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobSergalLFoot
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobSergalRLeg
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobSergalRHand
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobSergalRArm
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobSergalRFoot
+  baseSprite:
+    sprite: _Jamboree/Mobs/Species/Sergal/parts.rsi
+    state: r_foot
+

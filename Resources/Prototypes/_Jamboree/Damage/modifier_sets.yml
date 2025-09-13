@@ -1,0 +1,6 @@
+- type: damageModifierSet
+  id: Sergal
+  coefficients:
+    Blunt: 0.9
+    Heat: 1.15
+  ignoreArmorPierceFlags: All

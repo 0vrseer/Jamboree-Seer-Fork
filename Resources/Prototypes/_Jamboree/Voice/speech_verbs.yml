@@ -1,0 +1,8 @@
+- type: speechVerb
+  id: Sergal
+  name: chat-speech-verb-name-sergal
+  speechVerbStrings:
+  - chat-speech-verb-sergal-1
+  - chat-speech-verb-sergal-2
+  - chat-speech-verb-sergal-3
+  - chat-speech-verb-sergal-4
